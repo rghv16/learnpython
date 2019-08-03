@@ -1,0 +1,10 @@
+Unit Test 
+Basic test
+checks a class or function is working correctly // check for basic building blog
+python has unittest framework for this purpose
+
+testes at module level
+	you have to do a great deal of unit testing as you should test each and every unit of code in your project.
+	who does it
+		programmer
+	

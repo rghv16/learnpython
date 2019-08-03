@@ -1,0 +1,4 @@
+we have lots of module or pieces of code files.
+goal to see whether combined modules work together or not
+no of intergration test < no of unittest
+

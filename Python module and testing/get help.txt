@@ -1,0 +1,7 @@
+how to get help in python 3?
+inspect module
+help
+dir
+pydoc
+.__all__
+module.*?

@@ -1,0 +1,27 @@
+Each type of testing has its advantage, usecase or disadvantage
+two types of testing
+Functional testing
+	Unit testing
+	Intergration testing
+	System testing
+	Sanity testing
+	Smoke Testing
+	Interface Testing
+	Regression Testing
+	Beta / Acceptance Testing
+Non functional testing
+	Performance Testing
+	Load Testing
+	Stress Testing
+	Volume Testing
+	Security Testing
+	Compatibilty Testing
+	Install testing
+	Recovery Testing
+	Reliability testing
+	Usability testing
+	Compliance Testing
+	Localization testing
+
+
+

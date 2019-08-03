@@ -1,0 +1,4 @@
+Monkey testing is carried out by a tester assuming that if the monkey uses the application then how random input values will be entered by the monkey without any knowledge or understanding of the application
+
+performed randomly and no test cases are scripted and it is not necessary to be aware of the full functionality of the system.
+
