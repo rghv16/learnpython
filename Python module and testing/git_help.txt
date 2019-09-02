@@ -43,6 +43,8 @@ Tags :- tags assigns a meaningful name with a specific version in the repository
 
 
 
+git status -sb
+ahead and behind  == >  local repo is behind/ahead of remote repo
 
 
 
