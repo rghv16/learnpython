@@ -1,0 +1,42 @@
+1. Display All Commits
+	git log --all
+2. Display recent Commits
+	git log -3
+3. Filter Commits by author or commiter
+	git log --author <name>
+	git log --committer <name>
+	ep
+	git log --name=rghv16
+4. Filter by X days Ago
+	git log --before <date>
+	git log --after <date>
+
+	git log --after 2.days.ago
+
+5. Filter in range date
+	
+	git log --after <date> --before <date>
+
+	git log --after "2014-02-01" --before "2201-22-01"
+
+6.view all diff of change for each commit
+	git log -p
+
+	p option is like patch
+
+7. view summary of changes of each commit
+	git log --stat
+
+8. view one line per commmit
+	git log --oneline
+9. view commit history in ascii graph
+	git log --graph
+
+10 
+	git log --pretty=format:"<options>"
+	git log --pretty=format:"Commit Hash: %H, Author: %aN, Date: %aD"
+
+
+	git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	:wq
+
