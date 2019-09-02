@@ -1,0 +1,69 @@
+list of useful git command
+
+
+git clone 'url'
+
+working area ----> stagging area ----> git repository
+	     git add [* or 'Filename']	git commit -m 'msg holder'
+
+what is repository?
+repo is like a folder in which my all project related data is saved and revision history
+multiple collaborator and can be public and private
+
+what is project?
+project term is used in git env, it provides project bord from which we can set workflow of project and 
+workflow of project
+
+
+BLOB   Binary Large OBject file
+a blob only holds the data not the metadata of file name of blob is SHA1 value
+
+Trees it is a object which represent the directory, name of tree is SHA1 value
+it holds the BLOB as well as sub directory
+
+
+commit object :- commit holds the current state of the repository. A commit is also named by SHA1. you can consider a commit object as a node of linked list. Every commit object has a pointer to the parent commit object. you can travse with it. commit can have multiple parent commits
+
+Branches :- Branches are used to create another line of developement, by default , Git has a master branch, which is same as trunk in subversion another VCS whose name is SVN.
+why do we create new branch ? to work on a new feature, once the feature is completed, it is merged back with the master branch and we delete the branch, every branch is referenced with HEAD.
+
+
+
+pull
+
+push
+
+Reversion :- version of source code, represented by commits, git uses SHA1 hashes
+
+Head :- it is a pointer which always points to the latest commit in the branch.
+it always gets updated with commit.
+
+Tags :- tags assigns a meaningful name with a specific version in the repository. tags are very similar to branches, but the difference is that tags are immutale. Once a tag is created for a particular commit, even if you create a new commit, it will not be updated. Usually, developers create tags for product releases.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
